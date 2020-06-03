@@ -1,6 +1,2 @@
 #!/bin/bash
 mv [A-Z]* /tmp/u 
-<<<<<<< HEAD
-
-=======
->>>>>>> 4a4e1414b9cfd7fd75707f863b1adf75797ac19a
