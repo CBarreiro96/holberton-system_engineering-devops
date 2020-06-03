@@ -1,2 +1,1 @@
-# holberton-system_engineering-devops
-Third day
+**Strong** __Strong__
