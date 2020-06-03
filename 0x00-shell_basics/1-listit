@@ -1,4 +1,3 @@
 #!/bin/bash
-# My first script
 
-ls
+ls 0x00-shell_basics
