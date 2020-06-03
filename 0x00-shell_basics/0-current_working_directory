@@ -1,4 +1,4 @@
-#!/bin/bash
-# My first script
+! / bin / bash
+# Mi primer guión
 
-echo "Hello World!"
+pwd
