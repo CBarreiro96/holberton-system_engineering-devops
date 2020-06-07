@@ -1,2 +1,2 @@
 #!/bin/bash
-find /tmp -type f -mtime 10 | ls | tail -n 10
+ls -t | head
