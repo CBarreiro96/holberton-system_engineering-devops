@@ -1,7 +1,7 @@
 **Use Command**
-\n
 *  **Echo**= Write argument to stand output.
-*   
+*  **Cat**=
+*  **Head**=Print first 10 lines of each FILE to standard output. 
 
 **Description**
 
