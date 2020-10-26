@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
-trap "echo 'I am invincible!!!'" SIGINT SIGTERM
+# Bash script that displays:
+#To infinity and beyond indefinitely
+#I am invincible!!! when receiving a SIGTERM signal
+trap sigtrap 15
+sigtrap()
+{
+    echo "I am invincible!!!"
+}
 while :
 do
 	echo "To infinity and beyond"
