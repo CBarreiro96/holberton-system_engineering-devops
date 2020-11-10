@@ -8,7 +8,7 @@ In this proyect you are going to learn about the follow topic:
 * WAN
 * Internet
 * TCP/UDP
-## Activities
+## :memo: Activities :memo:
 In this section you are going to find some question to learn this topic
 ### [OSI model]()
 * What is OSI model?]
@@ -41,3 +41,50 @@ In this section you are going to find some question to learn this topic
 	1. Is to devices connected to a network what postal address is to houses
 	2. The unique identifier of a network interface
 	3. Is a number that network devices use to connect to networks
+## [UDP and TCP ]()
+* Which statement is correct for the TCP box?
+	1. ```It is a protocol that is transferring data in a slow way but surely```
+	2. ```It is a protocol that is transferring data in a fast way and might loss data along in the process```
+* Which statement is correct for the UDP box?
+	1. ```It is a protocol that is transferring data in a slow way but surely```
+	2. ```It is a protocol that is transferring data in a fast way and might loss data along in the process```
+* Which statement is correct for the TCP worker?
+	1. ```Have you received boxes x, y, z?```
+	2. ```May I increase the rate at which I am sending you boxes?```
+## [TCP and UDP ports]()
+In this part you are going to do a script in bash  that display listening ports
+* That only shows listening sockets
+* That shows the PID and name of the program to which each socket belongs
+
+This scripts have to work like this example
+```
+user@ubuntu$ sudo ./4-TCP_and_UDP_ports
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 *:sunrpc                *:*                     LISTEN      518/rpcbind
+tcp        0      0 *:ssh                   *:*                     LISTEN      1240/sshd
+tcp        0      0 *:32938                 *:*                     LISTEN      547/rpc.statd
+tcp6       0      0 [::]:sunrpc             [::]:*                  LISTEN      518/rpcbind
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN      1240/sshd
+tcp6       0      0 [::]:33737              [::]:*                  LISTEN      547/rpc.statd
+udp        0      0 *:sunrpc                *:*                                 518/rpcbind
+udp        0      0 *:691                   *:*                                 518/rpcbind
+udp        0      0 localhost:723           *:*                                 547/rpc.statd
+udp        0      0 *:60129                 *:*                                 547/rpc.statd
+udp        0      0 *:3845                  *:*                                 562/dhclient
+udp        0      0 *:bootpc                *:*                                 562/dhclient
+udp6       0      0 [::]:47444              [::]:*                              547/rpc.statd
+udp6       0      0 [::]:sunrpc             [::]:*                              518/rpcbind
+udp6       0      0 [::]:50038              [::]:*                              562/dhclient
+udp6       0      0 [::]:691                [::]:*                              518/rpcbind
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING     7724     518/rpcbind         /run/rpcbind.sock
+unix  2      [ ACC ]     STREAM     LISTENING     6525     1/init              @/com/ubuntu/upstart
+unix  2      [ ACC ]     STREAM     LISTENING     8559     835/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     9190     1087/acpid          /var/run/acpid.socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /run/udev/control
+user@ubuntu$
+```
+# Author
+:man_technologist: Camilo Barreiro/[CBarreiro96](https://github.com/CBarreiro96)
