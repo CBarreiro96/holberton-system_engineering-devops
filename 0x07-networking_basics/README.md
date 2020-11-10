@@ -41,7 +41,7 @@ In this section you are going to find some question to learn this topic
 	1. Is to devices connected to a network what postal address is to houses
 	2. The unique identifier of a network interface
 	3. Is a number that network devices use to connect to networks
-## [UDP and TCP ](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/3-UDP_and_TCP "UDP AND TCP")
+### [UDP and TCP ](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/3-UDP_and_TCP "UDP AND TCP")
 * Which statement is correct for the TCP box?
 	1. ```It is a protocol that is transferring data in a slow way but surely```
 	2. ```It is a protocol that is transferring data in a fast way and might loss data along in the process```
@@ -51,7 +51,7 @@ In this section you are going to find some question to learn this topic
 * Which statement is correct for the TCP worker?
 	1. ```Have you received boxes x, y, z?```
 	2. ```May I increase the rate at which I am sending you boxes?```
-## [TCP and UDP ports](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/4-TCP_and_UDP_ports "scrpt Bash TCP and UDP")
+### [TCP and UDP ports](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/4-TCP_and_UDP_ports "scrpt Bash TCP and UDP")
 In this part you are going to do a script in bash  that display listening ports
 * That only shows listening sockets
 * That shows the PID and name of the program to which each socket belongs
@@ -87,7 +87,7 @@ unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /
 user@ubuntu$
 ```
 
-## [Is the host on the network](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/5-is_the_host_on_the_network "Use command ping")
+### [Is the host on the network](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/5-is_the_host_on_the_network "Use command ping")
 IN this part ypu need to create a script in bash that pings an IP address passed as an argument with the follow requeriment:
 * Accepts a string as an argument
 * Displays ```Usage:5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed```
@@ -111,5 +111,5 @@ user@ubuntu$ ./5-is_the_host_on_the_network
 Usage: 5-is_the_host_on_the_network {IP_ADDRESS}
 user@ubuntu$ 
 ```
-# Author
+## Author
 :man_technologist: Camilo Barreiro/[CBarreiro96](https://github.com/CBarreiro96)
