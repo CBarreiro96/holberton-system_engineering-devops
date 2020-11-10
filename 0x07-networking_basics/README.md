@@ -10,7 +10,7 @@ In this proyect you are going to learn about the follow topic:
 * TCP/UDP
 ## :memo: Activities :memo:
 In this section you are going to find some question to learn this topic
-### [OSI model]()
+### [OSI model](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/0-OSI_model "Osi model")
 * What is OSI model?]
 	1. Set of specifications that network hardware manufacturers must respect
 	2. The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
@@ -19,7 +19,7 @@ In this section you are going to find some question to learn this topic
 	1. Alphabetically
 	2. From the lowest to the highest level
 	3. Randomly
-### [Types of network]()
+### [Types of network](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/1-types_of_network "type of network")
 * What type of network are Holberton iMacs connected to?
 	1. Internet
 	2. WAN
@@ -32,7 +32,7 @@ In this section you are going to find some question to learn this topic
 	1. Internet
 	2. WAN
 	3. LAN
-### [MAC and IP address]()
+### [MAC and IP address](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/2-MAC_and_IP_address "MAC")
 * What is a MAC address?
 	1. The name of a network interface
 	2. The unique identifier of a network interface
@@ -41,7 +41,7 @@ In this section you are going to find some question to learn this topic
 	1. Is to devices connected to a network what postal address is to houses
 	2. The unique identifier of a network interface
 	3. Is a number that network devices use to connect to networks
-## [UDP and TCP ]()
+## [UDP and TCP ](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/3-UDP_and_TCP "UDP AND TCP")
 * Which statement is correct for the TCP box?
 	1. ```It is a protocol that is transferring data in a slow way but surely```
 	2. ```It is a protocol that is transferring data in a fast way and might loss data along in the process```
@@ -51,7 +51,7 @@ In this section you are going to find some question to learn this topic
 * Which statement is correct for the TCP worker?
 	1. ```Have you received boxes x, y, z?```
 	2. ```May I increase the rate at which I am sending you boxes?```
-## [TCP and UDP ports]()
+## [TCP and UDP ports](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/4-TCP_and_UDP_ports "scrpt Bash TCP and UDP")
 In this part you are going to do a script in bash  that display listening ports
 * That only shows listening sockets
 * That shows the PID and name of the program to which each socket belongs
@@ -86,5 +86,8 @@ unix  2      [ ACC ]     STREAM     LISTENING     9190     1087/acpid          /
 unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /run/udev/control
 user@ubuntu$
 ```
+
+## [Is the host on the network]()
+
 # Author
 :man_technologist: Camilo Barreiro/[CBarreiro96](https://github.com/CBarreiro96)
