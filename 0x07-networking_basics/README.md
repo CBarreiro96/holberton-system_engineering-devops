@@ -87,7 +87,29 @@ unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /
 user@ubuntu$
 ```
 
-## [Is the host on the network]()
+## [Is the host on the network](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x07-networking_basics/5-is_the_host_on_the_network "Use command ping")
+IN this part ypu need to create a script in bash that pings an IP address passed as an argument with the follow requeriment:
+* Accepts a string as an argument
+* Displays ```Usage:5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed```
+* Ping the IP 5 times
 
+This scripts have to work like this example
+```
+user@ubuntu$ ./5-is_the_host_on_the_network 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=63 time=12.9 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=63 time=13.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=63 time=7.83 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=63 time=11.3 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=63 time=7.57 ms
+
+--- 8.8.8.8 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 7.570/10.682/13.679/2.546 ms
+user@ubuntu$
+user@ubuntu$ ./5-is_the_host_on_the_network
+Usage: 5-is_the_host_on_the_network {IP_ADDRESS}
+user@ubuntu$ 
+```
 # Author
 :man_technologist: Camilo Barreiro/[CBarreiro96](https://github.com/CBarreiro96)
