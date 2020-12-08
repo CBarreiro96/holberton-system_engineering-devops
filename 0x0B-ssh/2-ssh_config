@@ -1,0 +1,11 @@
+# Camilo's configuration file for ubuntu ssh server.
+# For more details, see ssh_config(5) man page.
+
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/holberton
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
