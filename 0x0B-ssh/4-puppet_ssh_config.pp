@@ -1,7 +1,10 @@
 # modify SSH config file
-file_line { '/etc/ssh/ssh_config':
-  ensure => 'present',
-  path   => '/etc/ssh/ssh_config',
-  line   => '    PasswordAuthentication no'
-  content  => '	 IdentityFile ~/.ssh/holberton'
+file_line { 'IdentityFile':
+  path => '/etc/ssh/ssh_config',
+  line => 'IdentityFile ~/.ssh/holberton',
+}
+
+file_line { 'PasswordAuthentication':
+  path => '/etc/ssh/ssh_config',
+  line => 'PasswordAuthentication no',
 }
