@@ -4,6 +4,8 @@
 # "Ceci n'est pas une page"
 sudo apt-get -y install nginx
 sudo service nginx start
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
+sudo sed -i '37i\rewrite ^/redirect_me http://cbarreiro.tech permanent;' /etc/nginx/sites-available/default
 echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/error_404.html
 sudo sed -i '38i\error_page 404 /error_404.html;' /etc/nginx/sites-available/default
 sudo service nginx restart
