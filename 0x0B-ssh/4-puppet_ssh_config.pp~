@@ -1,8 +1,0 @@
-# puuppet ssh
-file { '/etc/ssh/ssh_config':
-  ensure   => 'file',
-  path     => '/etc/ssh/ssh_config',
-  line    => '    IdentityFile ~/.ssh/holberton',
-  replace => true,
-PasswordAuthentication no
-}
