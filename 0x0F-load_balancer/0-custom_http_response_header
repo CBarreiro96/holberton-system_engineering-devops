@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# configures a new Ubuntu machine installing Nginx
+sudo apt-get -y update
+sudo apt -y install nginx
+sudo ufw allow 'Nginx HTTP' # Allow for the port 80
+sudo echo "Holberton School" > index.html
+sudo mv index.html /var/www/html/
+
+sudo echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/custom_404.html
+
+Step_Sed="/listen 80 default_server;/a "
+Step_sed="${Step_Sed}\\\trewrite ^/redirect_me cbarreiro.tech permanent;\n"
+Step_Sed="${Step_Sed}\terror_page 404 /custom_404.html;\n\tlocation = /custom_404.html "
+Step_sed="${Step_sed}{\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}"
+
+sudo sed -i "${Step_sed}" /etc/nginx/sites-available/default
+
+_Hostname=$(cat /etc/hostname)
+Step_sed="/location \/ {/a \\\t\tadd_header X-Served-By $_Hostname;"
+# these sed adds two times the same line
+sudo sed -i "${Step_Sed}" /etc/nginx/sites-available/default
+sudo service nginx restart
