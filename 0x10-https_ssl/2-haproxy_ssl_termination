@@ -1,4 +1,6 @@
 global
+	maxconn 2048
+	tune.ssl.default-dh-param 2048
 	log /dev/log	local0
 	log /dev/log	local1 notice
 	chroot /var/lib/haproxy
@@ -19,6 +21,8 @@ global
 	ssl-default-bind-options no-sslv3
 
 defaults
+	option forwardfor
+	option http-server-close
 	log	global
 	mode	http
 	option	httplog
@@ -35,19 +39,23 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 
 frontend www-http
-         bind *:80
-         reqadd X-Forwarded-Proto:\ http
-         default_backend web-server
+	bind *:80
+	reqadd X-Forwarded-Proto:\ http
+	default_backend web-server
 
 frontend www-https
-         bind *:443 ssl crt /etc/haproxy/certs/www.cbarreiro.tech.pem
-         reqadd X-Forwarded-Proto:\ https
-         default_backend web-server
+	bind *:443 ssl crt /etc/haproxy/certs/www.cbarreiro.tech.pem
+	reqadd X-Forwarded-Proto:\ https
+	acl letsencrypt-acl path_beg /.well-known/acme-challenge/
+	use_backend letsencrypt-backend if letsencrypt-acl
+	default_backend web-server
 
 backend web-server
 	balance roundrobin
+	redirect scheme https if !{ ssl_fc }
 	server 1845-web-01 35.185.122.18:80 check
 	server 1845-web-02 35.237.15.1:80 check
+	option httpchk
 
 backend letsencrypt-backend
    server letsencrypt 127.0.0.1:54321
