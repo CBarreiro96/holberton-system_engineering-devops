@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# print subdomain name, record-type and IP pointer Address.
+# shellcheck disable=SC2086
+
+domain=$1
+
+# ********* displayALL() function **************
+function displayAll() {
+    for arg;
+    do
+	echo -n "The subdomain $arg is a "
+	dig "$arg"."$domain" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{print $4 " record and points to " $5}'
+    done
+}
+
+# ********** MAIN PROGRAM **********************
+
+if [ "$2" ]; then
+	subdomain=$2
+	echo -n "The subdomain $2 is a "
+	dig "$subdomain"."$domain" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{print $4 " record and points to " $5}'
+else
+	displayAll 'www' 'lb-01' 'web-01' 'web-02'
+fi
