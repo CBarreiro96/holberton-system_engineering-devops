@@ -2,7 +2,7 @@
 
 # <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30">    0x12. Web stack debugging #2  <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30">
 
-## :memo: Activities :memo
+## :memo: Activities :memo:
 ### [Run software as another user](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x12-web_stack_debugging_2/0-iamsomeoneelse)
 The user root is, on Linux, the “superuser”. It can do anything it wants, that’s a good and bad thing. A good practice is that one should never be logged in the root user, as if you fat finger a command and for example run rm -rf /, there is no comeback. That’s why it is preferable to run as a privileged user, meaning that the user also has the ability to perform tasks that the root user can do, just need to use a specific command that you need to discover.
 
@@ -50,6 +50,19 @@ root@ab6f4542747e:~# nc -z 0 8080 ; echo $?
 0
 root@ab6f4542747e:~#
 ```
+
+### [7 lines or less ](https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x12-web_stack_debugging_2/100-fix_in_7_lines_or_less)
+Using what you did for task #1, make your fix short and sweet.
+
+Requirements:
+
+* Your Bash script must be 7 lines long or less
+* There must be a new line at the end of the file
+* You respect Bash script requirements
+* You cannot use ;
+* You cannot use &&
+* You cannot use wget
+* You cannot execute your previous answer file (Do not include the name of the previous script in this one)
 
 
 
