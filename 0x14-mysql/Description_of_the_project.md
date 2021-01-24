@@ -89,7 +89,7 @@ Ahora retornamos a la terminal de web-01 donde se tiene abierto la terminal de m
 mysql>UNLOCK TABLES;
 mysql>QUIT;
 ```
-### Servidor maestro(web-01)
+### Servidor maestro(web-02)
 Creamos la base de datos que habimos creado para el web-01 en web-02
 ```SQL
 mysql>CREATE DATABASE tyrell_corp;
