@@ -1,15 +1,20 @@
-<center>
-<img src="https://user-images.githubusercontent.com/66263776/98416555-43fa9b80-204d-11eb-800a-df8e19b62655.jpg" width="500" height= "200"> 
-</center>
+<div align="center"><img src="https://user-images.githubusercontent.com/66263776/98416555-43fa9b80-204d-11eb-800a-df8e19b62655.jpg" width="500" height= "200"> </div>
 
 # <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30">    0x15. API <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30">
 
 ## :book: Description of directory
-In this directory with name **0X15 API** , It is a group of exercise that you can practice about How you can use an API?, then in the follow section you can find the exercise developed in this directory.
+In this directory with name **0X15 API** , It is a group of exercise that you can practice about How you can use an API?, then in the follow section you can find the exercise developed in this directory.<br>
+>**Note:** In this activities is necesary that you read the guide of API in this part we use this [Guide](https://jsonplaceholder.typicode.com/guide/)
+
+### :books: Information that you should to know :books:
+* [What is an API?](https://www.webopedia.com/definitions/api/)
+* [What is a REST API](https://www.sitepoint.com/developers-rest-api/)
+* [What are microservices](https://smartbear.com/solutions/microservices/)
+* [Different between API and RESTAPI](https://www.freelancinggig.com/blog/2018/11/02/what-is-the-difference-between-api-and-rest-api/#:~:text=While%20API%20is%20basically%20a,to%20build%20a%20web%20API.)
 
 ## :memo: Activities :memo:
 ### [Gather data from an API mandatory]()
-Write a Python script that, using this REST API, for a given employee ID, returns information about his/her TODO list progress.
+Write a Python script that, using this [REST API](https://jsonplaceholder.typicode.com/), for a given employee ID, returns information about his/her TODO list progress.
 
 **Requirements:**
 
