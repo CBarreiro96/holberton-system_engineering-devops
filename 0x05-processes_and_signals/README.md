@@ -9,14 +9,26 @@ Read or watch:
 ---
 ## Learning Objectives:bulb:
 What you should learn from this project:
-
-* What is a PID
-* What is a process
-* How to find a process’ PID
-* How to kill a process
-* What is a signal
+<details>
+    <summary>What is a <b>PID</b></summary>
+<b>P</b>rocess <b>I</b>dentification number :arrow_right: is an identification number that is automatically assigned to each process when it is created on a Unix-like operating system.
+</details>
+<details>
+    <summary>What is a <b>process</b></summary>
+</details>
+<details>
+    <summary>How to find a process’ PID</summary>
+</details>
+<details>
+    <summary>How to kill a process</summary>
+</details>
+<details>
+    <summary>What is a signal</summary>
+</details>
+<details>
+    <summary></summary>
 * What are the 2 signals that cannot be ignored
-
+</details>
 ---
 
 ### [0. What is my PID](./0-what-is-my-pid)
