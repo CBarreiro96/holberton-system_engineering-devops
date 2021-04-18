@@ -10,6 +10,8 @@ proposed by Holbertonschool, you can find exercise about the follow topic:
 * networking with bash
 
 These are the file that you can explore depend on what you want to learn.
+<h2 align="center">📖 Repository content 📖</h2>
+
 <div align="center">
     <table>
         <tr>
@@ -19,7 +21,7 @@ These are the file that you can explore depend on what you want to learn.
             <th align="center"> Learning objectives </th>
         </tr>
         <tr>
-            <th align="center" ROWSPAN="5">SHELL</th>
+            <th align="center" ROWSPAN="7"><center>BASH</center></th>
         </tr>
         <tr>
             <td align="center"><a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x00-shell_basics">Shell basic</a></td>
@@ -134,7 +136,6 @@ These are the file that you can explore depend on what you want to learn.
             </td>
         </tr>
         <tr>
-            <th align="center">BASH</th>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing">loops_conditions_and_parsing</a> </td>
             <td>
                 <ul>
@@ -147,10 +148,44 @@ These are the file that you can explore depend on what you want to learn.
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x05-processes_and_signals">processes_and_signals</a> </td>
+            <td>
+                <ul>
+                    <li>ps</li>
+                    <li>psgrep</li>
+                    <li>pkill</li>
+                    <li>kill</li>
+                    <li>exit</li>
+                    <li>trap</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th align="center" ROWSPAN="3">NETWORKING</th>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x07-networking_basics">Networking_basics</a>
+            <td>
+                <ul>
+                    <li>netstat</li>
+                    <li>ping</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2">Networking_basics_2</a></td>
+            <td>
+                <ul>
+                    <li>ifconfig</li>
+                    <li>telnet</li>
+                    <li>nc</li>
+                    <li>cut</li>
+                </ul>
+            </td>
+        </tr>
     </table>
 </div>
 
-## [processes_and_signals](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x05-processes_and_signals)
 ## [regular_expressions](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x06-regular_expressions)
-## [networking_basics](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x07-networking_basics)
-It is a option
+## []()
