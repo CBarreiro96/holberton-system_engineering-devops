@@ -16,9 +16,10 @@ These are the file that you can explore depend on what you want to learn.
             <th align="center">TOPIC</th>
             <th align="center"><center>SECTION</center></th>
             <th align="center"><center>Commands</center></th>
+            <th align="center"> Learning objectives </th>
         </tr>
         <tr>
-            <td align="center" ROWSPAN="5">SHELL</td>
+            <th align="center" ROWSPAN="5">SHELL</th>
         </tr>
         <tr>
             <td align="center"><a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x00-shell_basics">Shell basic</a></td>
@@ -38,6 +39,43 @@ These are the file that you can explore depend on what you want to learn.
                     <li>which</li>
                     <li>help</li>
                     <li>man</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What does RTFM mean?</li>
+                    <li>What is a Shebang</li>
+                </ul>
+                <h4>Shell</h4>
+                <ul>
+                    <li>What is the shell</li>
+                    <li>What is the difference between a terminal and a shell</li>
+                    <li>What is the shell prompt</li>
+                    <li>How to use the history (the basics)</li>
+                </ul>
+                <h4>Navigation</h4>
+                <ul>
+                    <li>What do the commands or built-ins <b>cd, pwd, ls</b> do</li>
+                    <li>How to navigate the filesystem</li>
+                    <li>What are the . and .. directories</li>
+                    <li>What is the working directory, how to print it and how to change it</li>
+                    <li>What is the root directory</li>
+                    <li>What is the home directory, and how to go there</li>
+                    <li>What is the difference between the root directory and the home directory of the user root</li>
+                    <li>What are the characteristics of hidden files and how to list them</li>
+                    <li>What does the command <b> cd - </b> do</li>
+                </ul>
+                <h4>Looking around</h4>
+                <ul>
+                    <li>What do the commands ls, less, file do</li>
+                    <li>How do you use options and arguments with commands</li>
+                    <li>Understand the ls long format and how to display it</li>
+                    <li>What does the ln command do</li>
+                    <li>What do you find in the most common/important directories</li>
+                    <li>What is a symbolic link</li>
+                    <li>What is a hard link</li>
+                    <li>What is the difference between a hard link and a symbolic link</li>
                 </ul>
             </td>
         </tr>
@@ -96,7 +134,7 @@ These are the file that you can explore depend on what you want to learn.
             </td>
         </tr>
         <tr>
-            <td align="center">BASH</td>
+            <th align="center">BASH</th>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing">loops_conditions_and_parsing</a> </td>
             <td>
                 <ul>
