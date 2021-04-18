@@ -1,10 +1,69 @@
-# 0x01. Shell, permissions
+<div align="center"><img src="https://user-images.githubusercontent.com/66263776/98416555-43fa9b80-204d-11eb-800a-df8e19b62655.jpg" width="700" height= "200"></div> 
+
+# <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30"> 0x01. Shell, permissions  <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30">
 
 ## Resources:books:
 Read or watch:
 * [Permissions](https://intranet.hbtn.io/rltoken/5uUsOHrMbVBOpZFteNyBLg)
+<details>
+    <summary><b>Command</b></summary>
+    <br>
+    <table>
+        <tr>
+            <th align="center">Command</th>
+            <th align="center">Description</th>
+            <th align="center"><center>Meaning</center></th>
+            <th align="center" COLSPAN="4"><center>Others</center></th>
+        </tr>
+        <tr>
+            <td align="center" ROWSPAN="5">chmod</td>
+            <td align="center" ROWSPAN="5"><b>CH</b>ange <b>MOD</b>e</td>
+            <td align="center" ROWSPAN="5"> is the command and system call used to change the access permissions of file system objects</td>
+            <th align="center">Notation</th>
+            <th align="center">Meaning</th>
+            <th align="center">Reference</th>
+            <th align="center">Class</th>
+        </tr>
+        <tr>
+            <td align="center">u+x</td>
+            <td align="center">Add execute permission for the owner</td>
+            <td align="center">u</td>
+            <td align="center">User</td>
+        </tr>
+        <tr>
+            <td align="center">u-x</td>
+            <td align="center">Remove execute permission for the owner</td>
+            <td align="center">g</td>
+            <td align="center">Group</td>
+        </tr>
+        <tr>
+            <td align="center">o-rw</td>
+            <td align="center">Remove the read and write permissions from anyone besides the owner and group owner</td>
+            <td align="center">o</td>
+            <td align="center">Others</td>
+        </tr>
+        <tr>
+            <td align="center">u+x, go=rx</td>
+            <td align="center">Add execute permission for the owner and set the permissions for the group and others to read and execute. Multiple specifications may be separated by commas</t
+            <td align="center">a</td>
+            <td align="center">All</td>
+        </tr>
+        <tr>
+            <td align="center">chown</td>
+            <td align="center"> <b>CH</b>ange <b>OWN</b>er </td>
+            <td align="center">changes user ownership of a file, directory, or link in Linux.</td>
+            <td align="center" COLSPAN="2"> -- </td>
+        </tr>
+    </table>
+</details>
+
+### :ledger: Annexes :ledger:
+If you like to continue learn you can go at the follow link:
+* <a href="">Shell basic</a>
+* <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/README.md">Shell redirection</a>
 
 ---
+
 ## Learning Objectives:bulb:
 What you should learn from this project:
 
@@ -17,6 +76,7 @@ What you should learn from this project:
 * How to change user ID or become superuser
 
 ---
+## :memo: Activities :memo:
 
 ### [0. My name is Betty](./0-iam_betty)
 * Create a script that changes your user ID to betty.
