@@ -17,8 +17,8 @@ These are the file that you can explore depend on what you want to learn.
         <tr>
             <th align="center">TOPIC</th>
             <th align="center"><center>SECTION</center></th>
-            <th align="center"><center>Commands</center></th>
-            <th align="center"> Learning objectives </th>
+            <th align="center"><center>COMMANDS</center></th>
+            <th align="center"><center> 🏆 LEARNING OBJETIVE 🏆 </center></th>
         </tr>
         <tr>
             <th align="center" ROWSPAN="7"><center>BASH</center></th>
