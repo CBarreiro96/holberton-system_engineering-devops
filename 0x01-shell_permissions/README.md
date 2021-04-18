@@ -44,7 +44,7 @@ Read or watch:
         </tr>
         <tr>
             <td align="center">u+x, go=rx</td>
-            <td align="center">Add execute permission for the owner and set the permissions for the group and others to read and execute. Multiple specifications may be separated by commas</t
+            <td align="center">Add execute permission for the owner and set the permissions for the group and others to read and execute. Multiple specifications may be separated by commas</td>
             <td align="center">a</td>
             <td align="center">All</td>
         </tr>
@@ -52,7 +52,7 @@ Read or watch:
             <td align="center">chown</td>
             <td align="center"> <b>CH</b>ange <b>OWN</b>er </td>
             <td align="center">changes user ownership of a file, directory, or link in Linux.</td>
-            <td align="center" COLSPAN="2"> -- </td>
+            <td align="center" COLSPAN="4"> -- </td>
         </tr>
     </table>
 </details>
