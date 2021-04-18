@@ -10,8 +10,25 @@ proposed by Holbertonschool, you can find exercise about the follow topic:
 * networking with bash
 
 These are the file that you can explore depend on what you want to learn.
-## [shell_basics](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x00-shell_basics)
-## [shell_permissions](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x01-shell_permissions)
+<div align="center">
+    <table>
+        <tr>
+            <th align="center">TOPIC</th>
+            <th align="center"><center>SECTION</center></th>
+            <th align="center">Others</th>
+        </tr>
+        <tr>
+            <td align="center" ROWSPAN="3">SHELL</td>
+        </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x00-shell_basics">Shell basic</a></td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x01-shell_permissions">Shell_permissions</a></td>
+        </tr>
+    </table>
+</div>
+
 ## [shell_redirections](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x02-shell_redirections)
 ## [shell_variables_expansions](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x03-shell_variables_expansions)
 ## [loops_conditions_and_parsing](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing)
