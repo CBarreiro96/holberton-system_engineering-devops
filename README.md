@@ -18,7 +18,7 @@ These are the file that you can explore depend on what you want to learn.
             <th align="center">TOPIC</th>
             <th align="center"><center>SECTION</center></th>
             <th align="center"><center>COMMANDS</center></th>
-            <th align="center"><center> 🏆 LEARNING OBJETIVE 🏆 </center></th>
+            <th align="center"><center> 🏆 LEARNING OBJETIVES 🏆 </center></th>
         </tr>
         <tr>
             <th align="center" ROWSPAN="7"><center>BASH</center></th>
@@ -100,6 +100,26 @@ These are the file that you can explore depend on what you want to learn.
                     <li>passwd (5)</li>
                 </ul>
             </td>
+            <td>
+                <h4>Permissions</h4>
+                <ul>
+                    <li>What do the commands <FONT COLOR="red">chmod, sudo, su, chown, chgrp</FONT> do</li>
+                    <li>Linux file permissions</li>
+                    <li>How to represent each of the three sets of permissions (owner, group, and other) as a single digit</li>
+                    <li>How to change permissions, owner and group of a file</li>
+                    <li>Why can’t a normal user <font color="red">chown</font> a file</li>
+                    <li>How to run a command with root privileges</li>
+                    <li>How to change user ID or become superuser</li>
+                </ul>
+                <h4>Other Man Pages</h4>
+                <ul>
+                    <li>How to create a user</li>
+                    <li>How to create a group</li>
+                    <li>How to print real and effective user and group IDs</li>
+                    <li>How to print the groups a user is in</li>
+                    <li>How to print the effective userid</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x02-shell_redirections">shell_redirections</a> </td>
@@ -118,6 +138,29 @@ These are the file that you can explore depend on what you want to learn.
                     <li>addgroup</li>
                 </ul>
             </td>
+            <td>
+                <h4>Shell, I/O Redirection</h4>
+                <ul>
+                    <li>What do the commands <font color="red">head, tail, find, wc, sort, uniq, grep, tr</font> do</li>
+                    <li>How to redirect standard output to a file</li>
+                    <li>How to get standard input from a file instead of the keyboard</li>
+                    <li>How to send the output from one program to the input of another program</li>
+                    <li>How to combine commands and filters with redirections</li>
+                </ul>
+                <h4>Special Characters</h4>
+                <ul>
+                    <li>What are special characters</li>
+                    <li>Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them</li>
+                </ul>
+                <h4>Other Man Pages</h4>
+                <ul>
+                    <li>How to display a line of text</li>
+                    <li>How to concatenate files and print on the standard output</li>
+                    <li>How to reverse a string</li>
+                    <li>What is the <font color="red"> /etc/passwd </font> file and what is its format</li>
+                    <li>What is the  <font color="red"> /etc/shadow </font> file and what is its format</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x03-shell_variables_expansions">Shell_variables_expansions</a> </td>
@@ -134,6 +177,46 @@ These are the file that you can explore depend on what you want to learn.
                     <li>printf</li>
                 </ul>
             </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What happens when you type <font color="red"> $ ls -l *.txt </font></li>
+                </ul>
+                <h4>Shell Initialization Files</h4>
+                <ul>
+                    <li>What are the <font color="red"> /etc/profile </font> file and the /<font color="red">etc/profile.d</font> directory</li>
+                    <li>What is the <font color="red">~/.bashrc</font> file</li>
+                </ul>
+                <h4>Variables</h4>
+                <ul>
+                    <li>What is the difference between a local and a global variable</li>
+                    <li>What is a reserved variable</li>
+                    <li>How to create, update and delete shell variables</li>
+                    <li>What are the roles of the following reserved variables: HOME, PATH, PS1</li>
+                    <li>What are special parameters</li>
+                    <li>What is the special parameter <font color="red">$?</font>?</li>
+                </ul>
+                                <h4>Expansions</h4>
+                <ul>
+                    <li>What is expansion and how to use them</li>
+                    <li>What is the difference between single and double quotes and how to use them properly</li>
+                    <li>How to do command substitution with <font color="red"> $() </font> and backticks</li>
+                </ul>
+                <h4>Shell Arithmetic</h4>
+                <ul>
+                    <li>How to perform arithmetic operations with the shell</li>
+                </ul>
+                <h4>The <font color="red"> alias </font> Command</h4>
+                <ul>
+                    <li>How to create an alias</li>
+                    <li>How to list aliases</li>
+                    <li>How to temporarily disable an alias</li>
+                </ul>
+                <h4>Other <font color="red">help</font> pages</h4>
+                <ul>
+                    <li>How to execute commands from a file in the current shell</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing">loops_conditions_and_parsing</a> </td>
@@ -145,6 +228,17 @@ These are the file that you can explore depend on what you want to learn.
                     <li>while</li>
                     <li>until</li>
                     <li>if</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>How to create SSH keys</li>
+                    <li>What is the advantage of using <font color="red">#!/usr/bin/env bash </font> over <font color="red"> #!/bin/bash </font></li>
+                    <li>How to use <font color="red">while, until </font> and <font color="red">for </font> loops</li>
+                    <li>How to use <font color="red">if, else, elif </font> and <font color="red"> case </font> condition statements</li>
+                    <li>How to use the <font color="red"> cut </font> command</li>
+                    <li>What are files and other comparison operators, and how to use them</li>
                 </ul>
             </td>
         </tr>
@@ -160,6 +254,17 @@ These are the file that you can explore depend on what you want to learn.
                     <li>trap</li>
                 </ul>
             </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What is a PID</li>
+                    <li>What is a process</li>
+                    <li>How to find a process' PID</li>
+                    <li>How to kill a process</li>
+                    <li>What is a signal</li>
+                    <li>What are the 2 signals that cannot be ignored</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <th align="center" ROWSPAN="3">NETWORKING</th>
@@ -170,6 +275,40 @@ These are the file that you can explore depend on what you want to learn.
                 <ul>
                     <li>netstat</li>
                     <li>ping</li>
+                </ul>
+            </td>
+            <td>
+                <h4>OSI Model</h4>
+                <ul>
+                    <li>What it is</li>
+                    <li>How many layers it has</li>
+                    <li>How it is organized</li>
+                </ul>
+                <h4>What is a LAN</h4>
+                <ul>
+                    <li>Typical usage</li>
+                    <li>Typical geographical size</li>
+                </ul>
+                <h4>What is a WAN</h4>
+                <ul>
+                    <li>Typical usage</li>
+                    <li>Typical geographical size</li>
+                </ul>
+                <h4>What is the internet</h4>
+                <ul>
+                    <li>What is an IP address</li>
+                    <li>What are the 2 types of IP address</li>
+                    <li>What is <font color="red">localhost</font></li>
+                    <li>What is a subnet</li>
+                    <li>Why IPv6 was created</li>
+                </ul>
+                <h4>TCP/UDP</h4>
+                <ul>
+                    <li>What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)</li>
+                    <li>What is the main difference between TCP and UDP</li>
+                    <li>What is a port</li>
+                    <li>Memorize SSH, HTTP and HTTPS port numbers</li>
+                    <li>What tool/protocol is often used to check if a device is connected to a network</li>
                 </ul>
             </td>
         </tr>
@@ -184,8 +323,69 @@ These are the file that you can explore depend on what you want to learn.
                 </ul>
             </td>
         </tr>
+        <tr>
+            <th align="center" ROWSPAN="3">Scripting</th>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x06-regular_expressions">Regular_expressions</a> </td>
+            <td>
+                <ul>
+                    <li>abc...</li>
+                    <li>123...</li>
+                    <li>\d</li>
+                    <li>\D</li>
+                    <li>.</li>
+                    <li>\.</li>
+                    <li>[abc]</li>
+                    <li>[^abc]</li>
+                    <li>[a-z]</li>
+                    <li>[0-9]</li>
+                    <li>\w</li>
+                    <li>\W</li>
+                    <li>{m}</li>
+                    <li>{m,n}</li>
+                    <li>*</li>
+                    <li>+</li>
+                    <li>?</li>
+                    <li></li>
+                    <li>\s</li>
+                    <li>\S</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x15-api">API</a></td>
+            <td align="center"> --- </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What Bash scripting should not be used for</li>
+                    <li>What is an API</li>
+                    <li>What is a REST API</li>
+                    <li>What are microservices</li>
+                    <li>What is the CSV format</li>
+                    <li>What is the JSON format</li>
+                    <li>Pythonic Package and module name style</li>
+                    <li>Pythonic Class name style</li>
+                    <li>Pythonic Variable name style</li>
+                    <li>Pythonic Function name style</li>
+                    <li>Pythonic Constant name style</li>
+                    <li>Significance of CapWords or CamelCase in Python</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x16-api_advanced">API ADVANCE</a> </td>
+            <td align="center"> --- </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>How to read API documentation to find the endpoints you’re looking for</li>
+                    <li>How to use an API with pagination</li>
+                    <li>How to parse JSON results from an API</li>
+                    <li>How to make a recursive API call</li>
+                    <li>How to sort a dictionary by value</li>
+                </ul>
+            </td>
+        </tr>
     </table>
 </div>
 
-## [regular_expressions](https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x06-regular_expressions)
-## []()
