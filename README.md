@@ -2,6 +2,8 @@
 
 # <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30">    holberton-system_engineering-devops <img src="https://user-images.githubusercontent.com/66263776/98705433-b6b88f00-234b-11eb-97b7-cb193f7424f4.png" width="20" height= "30">
 
+---
+## :scroll: Description :scroll:
 In this repositories you can find  a lot of exercise that it was 
 proposed by Holbertonschool, you can find exercise about the follow topic:
 * shell knowledge
@@ -10,6 +12,12 @@ proposed by Holbertonschool, you can find exercise about the follow topic:
 * networking with bash
 
 These are the file that you can explore depend on what you want to learn.
+
+### :notebook_with_decorative_cover: Other repo_information :notebook_with_decorative_cover:
+* <a href="https://github.com/CBarreiro96/holbertonschool-low_level_programming">Low level language</a>
+* <a href="https://github.com/CBarreiro96/holbertonschool-higher_level_programming">High Level language</a>
+
+---
 <h2 align="center">📖 Repository content 📖</h2>
 
 <div align="center">
@@ -17,7 +25,7 @@ These are the file that you can explore depend on what you want to learn.
         <tr>
             <th align="center">TOPIC</th>
             <th align="center"><center>SECTION</center></th>
-            <th align="center"><center>COMMANDS</center></th>
+            <th align="center"><center>INFO_CONTENT</center></th>
             <th align="center"><center> 🏆 LEARNING OBJETIVES 🏆 </center></th>
         </tr>
         <tr>
@@ -267,7 +275,7 @@ These are the file that you can explore depend on what you want to learn.
             </td>
         </tr>
         <tr>
-            <th align="center" ROWSPAN="3">NETWORKING</th>
+            <th align="center" ROWSPAN="3"><center>NETWORKING</center></th>
         </tr>
         <tr>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x07-networking_basics">Networking_basics</a>
@@ -322,9 +330,18 @@ These are the file that you can explore depend on what you want to learn.
                     <li>cut</li>
                 </ul>
             </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What is localhost/127.0.0.1</li>
+                    <li>What is 0.0.0.0</li>
+                    <li>What is /etc/hosts</li>
+                    <li>How to display your machine’s active network interfaces</li>
+                </ul>
+            </td>
         </tr>
         <tr>
-            <th align="center" ROWSPAN="3">Scripting</th>
+            <th align="center" ROWSPAN="3"><center>SCRIPTING</center></th>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x06-regular_expressions">Regular_expressions</a> </td>
             <td>
                 <ul>
@@ -350,6 +367,7 @@ These are the file that you can explore depend on what you want to learn.
                     <li>\S</li>
                 </ul>
             </td>
+            <td align="center"> For this project, you have to build your regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. Note that other regular expression libraries sometimes have different properties. </td>
         </tr>
         <tr>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x15-api">API</a></td>
@@ -385,6 +403,208 @@ These are the file that you can explore depend on what you want to learn.
                     <li>How to sort a dictionary by value</li>
                 </ul>
             </td>
+        </tr>
+        <tr>
+            <th align="center" ROWSPAN="7"><center>WEB STACK</center></th>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x09-web_infrastructure_design">Web infrastructure design</a>
+            <td>
+                <ul>
+                    <li>DNS</li>
+                    <li>Monitoring</li>
+                    <li>Web Server</li>
+                    <li>Network basics</li>
+                    <li>Load balancer</li>
+                    <li>Server</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>You must be able to draw a diagram covering the web stack you built with the sysadmin/devops track projects</li>
+                    <li>You must be able to explain what each component is doing</li>
+                    <li>You must be able to explain system redundancy</li>
+                    <li>Know all the mentioned acronyms: LAMP, SPOF, QPS</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x0C-web_server">Web Server</a> </td>
+            <td>
+                <ul>
+                    <li>scp</li>
+                    <li>curl</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What is the main role of a web server</li>
+                    <li>What is a child process</li>
+                    <li>Why web servers usually have a parent process and child processes</li>
+                    <li>What are the main HTTP requests</li>
+                </ul>
+                <h4>DNS</h4>
+                <ul>
+                    <li>What DNS stands for</li>
+                    <li>What is DNS main role</li>
+                </ul>
+                <h4>DNS Record Types</h4>
+                <ul>
+                    <li>A</li>
+                    <li>CNAME</li>
+                    <li>TXT</li>
+                    <li>MX</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x0F-load_balancer">Load balancer</a> </td>
+            <td>
+                <ul>
+                    <li>Load-balancing and HAproxy</li>
+                    <li>HAproxy packages</li>
+                </ul>
+            </td>
+            <td align="center">Let’s improve our web stack so that there is redundancy for our web servers. This will allow us to be able to accept more traffic by doubling the number of web servers, and to make our infrastructure more reliable. If one web server fails, we will still have a second one to handle requests.<br><br>
+            For this project, you will need to write Bash scripts to automate your work. All scripts must be designed to configure a brand new Ubuntu server to match the task requirements.</td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x10-https_ssl">HTTPS SSL</a> </td>
+            <td>
+                <ul>
+                    <li>awk</li>
+                    <li>dig</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What is HTTPS SSL 2 main roles</li>
+                    <li>What is the purpose encrypting traffic</li>
+                    <li>What SSL termination means</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x14-mysql">MySQL</a></td>
+            <td>
+                <ul>
+                    <li>mysqldump</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What is the main role of a database</li>
+                    <li>What is a database replica</li>
+                    <li>What is the purpose of a database replica</li>
+                    <li>Why database backups need to be stored in different physical locations</li>
+                    <li>What operation should you regularly perform to make sure that your database backup strategy actually works</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x18-webstack_monitoring">Webstack monitoring</a></td>
+            <td>
+                <ul>
+                    <li>server_monitoring</li>
+                    <li>aplication monitoring</li>
+                    <li>System monitoring by google</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>Why is monitoring needed</li>
+                    <li>What are the 2 main area of monitoring</li>
+                    <li>What are access logs for a web server (such as Nginx)</li>
+                    <li>What are error logs for a web server (such as Nginx)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x1A-application_server"> Application server </a></td>
+            <td>
+                <ul>
+                    <li>Web server</li>
+                    <li>Server</li>
+                    <li>Web stack debbuging
+                </ul>
+            </td>
+            <td align="center">While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your Nginx and make is serve your Airbnb clone project.</td>
+        </tr>
+        <tr>
+            <th align="center" ROWSPAN="2"> <center>Security </center> </th>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x0B-ssh">SSH</a></td>
+            <td>
+                <ul>
+                    <li>ssh</li>
+                    <li>ssh-keygen</li>
+                    <li>env</li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What is a server</li>
+                    <li>Where servers usually live</li>
+                    <li>What is SSH</li>
+                    <li>How to create an SSH RSA key pair</li>
+                    <li>How to connect to a remote host using an SSH RSA key pair</li>
+                    <li>The advantage of using <font color="red">#!/usr/bin/env bash </font> instead of <font color="red"> /bin/bash </font></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x13-firewall">Firewall</a></td>
+            <td>
+                <ul>
+                    <li>ufw</li>
+                    <li>telnet</li>
+                </ul>
+            </td>
+            <td>
+                In this repsoitory you are going to find exercise about security with firewall.
+            </td>
+        </tr>
+        <tr>
+            <th align="center" ROWSPAN="5"><center>Web stack debugging</center></th>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0"> Web stack debugging #0</a> </td>
+            <td ROWSPAN="3">
+                <ul>
+                    <li>curl</li>
+                </ul>
+            </td>
+            <td align="center"ROWSPAN="5">
+            The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).
+            <h4>Six Stage of debugging</h4>
+            <ol>
+                <li>That can't happen</li>
+                <li>That doesn't happen on my machine</li>
+                <li>That shouldn't happen</li>
+                <li>Why does that happen?</li>
+                <li>Oh, I see</li>
+                <li>How did that ever work?</li>
+            </ol>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x0E-web_stack_debugging_1">Web stack debugging #1</a></td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x12-web_stack_debugging_2">Web stack debugging #2</a></td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x17-web_stack_debugging_3">Web stack debugging #3</a></td>
+            <td rowspan="2">
+                <ul>
+                    <li>Curl</li>
+                    <li>puppet-lint</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x1B-web_stack_debugging_4">Web stack debugging #4</a></td>
         </tr>
     </table>
 </div>
