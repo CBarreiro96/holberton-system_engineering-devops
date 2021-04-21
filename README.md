@@ -29,7 +29,7 @@ These are the file that you can explore depend on what you want to learn.
             <th align="center"><center> 🏆 LEARNING OBJETIVES 🏆 </center></th>
         </tr>
         <tr>
-            <th align="center" ROWSPAN="7"><center>BASH</center></th>
+            <th align="center" ROWSPAN="7"><center>BASH<img src="https://user-images.githubusercontent.com/66263776/115542289-beb71c00-a265-11eb-97ba-5050def6f54f.png" width="90" height= "90"></center></th>
         </tr>
         <tr>
             <td align="center"><a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x00-shell_basics">Shell basic</a></td>
@@ -275,7 +275,7 @@ These are the file that you can explore depend on what you want to learn.
             </td>
         </tr>
         <tr>
-            <th align="center" ROWSPAN="3"><center>NETWORKING</center></th>
+            <th align="center" ROWSPAN="3"><center>NETWORKING <img src="https://user-images.githubusercontent.com/66263776/115543038-8ebc4880-a266-11eb-9327-26034c86df41.png" width="100" height= "80"></center></th>
         </tr>
         <tr>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x07-networking_basics">Networking_basics</a>
@@ -405,7 +405,7 @@ These are the file that you can explore depend on what you want to learn.
             </td>
         </tr>
         <tr>
-            <th align="center" ROWSPAN="7"><center>WEB STACK</center></th>
+            <th align="center" ROWSPAN="7"><center>WEB STACK <img src="https://user-images.githubusercontent.com/66263776/115543381-ece92b80-a266-11eb-8336-70ebb7b67196.png" width="100" height= "80"></center></th>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x09-web_infrastructure_design">Web infrastructure design</a>
             <td>
                 <ul>
@@ -534,7 +534,7 @@ These are the file that you can explore depend on what you want to learn.
             <td align="center">While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your Nginx and make is serve your Airbnb clone project.</td>
         </tr>
         <tr>
-            <th align="center" ROWSPAN="2"> <center>Security </center> </th>
+            <th align="center" ROWSPAN="2"> <center>Security <img src="https://user-images.githubusercontent.com/66263776/115553340-e9f43800-a272-11eb-9f72-b3da15a49328.png" width="100" height= "80"> </center> </th>
             <td align="center"> <a href="https://github.com/CBarreiro96/holberton-system_engineering-devops/tree/master/0x0B-ssh">SSH</a></td>
             <td>
                 <ul>
