@@ -6,6 +6,45 @@
 Read or watch:
 * [Permissions](https://intranet.hbtn.io/rltoken/5uUsOHrMbVBOpZFteNyBLg)
 <details>
+    <summary><b>Permissions Structure</b></summary>
+    <div align="center">
+    <table>
+        <tr>
+            <th align="center" colspan="3"><center>User</center></th>
+            <th align="center" colspan="3"><center>Grouṕ</center></th>
+            <th align="center" colspan="3"><center>World</center></th>
+        </tr>
+        <tr>
+            <td align="center" colspan="3"><code>rwx</code></td>
+            <td align="center" colspan="3"><code>r-x</code></td>
+            <td align="center" colspan="3"><code>r-x</code></td>
+        </tr>
+        <tr>
+            <th align="center" colspan="12"><center>Binary</center></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th align="center" colspan="12"><center>Octal</center></th>
+        </tr>
+        <tr>
+            <td colspan="3" align="center"><center>7</center></td>
+            <td colspan="3" align="center"><center>5</center></td>
+            <td colspan="3" align="center"><center>5</center></td>
+        </tr>
+    </table>
+    </div>
+</details>
+<details>
     <summary><b>Command</b></summary>
     <br>
     <table>
@@ -54,7 +93,21 @@ Read or watch:
             <td align="center">changes user ownership of a file, directory, or link in Linux.</td>
             <td align="center" COLSPAN="4"> -- </td>
         </tr>
+        <tr>
+            <td align="center">whoami</td>
+            <td align="center"> Who am I</td>
+            <td align="center"><b>print effective userid</b><br><i> When I know WHta is my user</i></td>
+            <td align="center" COLSPAN="4"> -- </td>
+        </tr>
+        <tr>
+            <td align="center">passwd</td>
+            <td align="center">change user <b>PASSW</b>or<b>D</b></td>
+            <td align="center">Change password</td>
+            <td align="center" COLSPAN="4"> -- </td>
+        </tr>
     </table>
+
+> Note: For change user you need to write the next command <code>su nameuser</code>
 </details>
 
 ### :ledger: Annexes :ledger:

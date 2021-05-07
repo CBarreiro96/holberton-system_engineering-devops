@@ -9,21 +9,30 @@ It is important to know what is the different command that you can find in the S
 <details>
   <summary><b>Table command in the shell</b></summary>
   <br>
+  <div align="center">
   <table>
     <tr>
       <th align="center"><center>Command</center></th>
       <th align="center"><center>Description</center></th>
       <th align="center"><center>Meaning</center></th>
+      <th align="center" COLSPAN="2"><center>Aditional</center></th>
     </tr>
     <tr>
       <td align="center">cd</td>
       <td align="center"><b>C</b>hange <b>D</b>irectory</td>
       <td align="center">It is used to change the current working directory.</td>
+      <td align="center" COLSPAN="2">--</td>
     </tr>
     <tr>
-      <td align="center">ls</td>
-      <td align="center"><b>L</b>ist</td>
-      <td align="center">It is a Linux Shell comand that list directory content and directories.</td>
+      <td align="center" ROWSPAN="2">ls</td>
+      <td align="center"ROWSPAN="2"><b>L</b>ist</td>
+      <td align="center"ROWSPAN="2">It is a Linux Shell comand that list directory content and directories.</td>
+      <td align="center">-lS</td>
+      <td align="center">Organice by size</td>
+    </tr>
+    <tr>
+      <td align="center">-lSh</td>
+      <td align="center">Organice by size and show the size in (kb,Mb etc)</td>
     </tr>
     <tr>
       <td align="center">pwd</td>
@@ -39,6 +48,39 @@ It is important to know what is the different command that you can find in the S
       <td align="center">ln</td>
       <td align="center">make link between file</td>
       <td align="center">With this command you can make a symbol link</td>
+    </tr>
+  </table>
+  </div>
+</details>
+
+<details>
+  <summary><b>Other commands</b></summary>
+  <div align="center">
+  <table>
+    <tr>
+      <th><center>Command</center></th>
+      <th><center>Description</center></th>
+      <th><center>Examples</center></th>
+    </tr>
+    <tr>
+      <td align="center">';'</td>
+      <td align="center">Synchronous execution <br><b><i>Execute two command in the same time</i></b></td>
+      <td align="center"><code>ls; mkdir holi; cal</code></td>
+    </tr>
+    <tr>
+      <td align="center">'<code>&</code>'</td>
+      <td align="center">Asynchronous execution<br><b><i>Execute the command one by one</i></b></td>
+      <td align="center"><code>ls & date & cal</code></td>
+    </tr>
+    <tr>
+      <td align="center">'<code>&&</code>'</td>
+      <td align="center">Execute a command conditionally <br> <b><i>if the first command is execute then execute the second command</i></b></td>
+      <td align="center"><code>mkdir test && cd test</code></td>
+    </tr>
+    <tr>
+      <td align="center">'<code>||</code>'</td>
+      <td align="center">Or operator <br> <b><i>Execute any of them, if the command is wrong continue with the next command</i></b></td>
+      <td align="center"><code>mkdir test && cd test</code></td>
     </tr>
   </table>
 </details>
