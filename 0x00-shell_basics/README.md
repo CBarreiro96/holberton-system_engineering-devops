@@ -49,6 +49,11 @@ It is important to know what is the different command that you can find in the S
       <td align="center">make link between file</td>
       <td align="center">With this command you can make a symbol link</td>
     </tr>
+    <tr>
+      <td align="center">which</td>
+      <td align="center">make link between file</td>
+      <td align="center">locate a command</td>
+    </tr>
   </table>
   </div>
 </details>
@@ -81,6 +86,11 @@ It is important to know what is the different command that you can find in the S
       <td align="center">'<code>||</code>'</td>
       <td align="center">Or operator <br> <b><i>Execute any of them, if the command is wrong continue with the next command</i></b></td>
       <td align="center"><code>mkdir test && cd test</code></td>
+    </tr>
+    <tr>
+      <td align="center">'<code>cowsay</code>'</td>
+      <td align="center">Configurable speaking/thinking cow</i></b></td>
+      <td align="center"><code></code></td>
     </tr>
   </table>
 </details>

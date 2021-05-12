@@ -53,6 +53,7 @@ Read or watch:
             <th align="center">Description</th>
             <th align="center"><center>Meaning</center></th>
             <th align="center" COLSPAN="4"><center>Others</center></th>
+            <th align="center"><center>Example</center></th>
         </tr>
         <tr>
             <td align="center" ROWSPAN="5">chmod</td>
@@ -62,6 +63,7 @@ Read or watch:
             <th align="center">Meaning</th>
             <th align="center">Reference</th>
             <th align="center">Class</th>
+            <td align="center" ROWSPAN="5">---</td>
         </tr>
         <tr>
             <td align="center">u+x</td>
@@ -104,6 +106,20 @@ Read or watch:
             <td align="center">change user <b>PASSW</b>or<b>D</b></td>
             <td align="center">Change password</td>
             <td align="center" COLSPAN="4"> -- </td>
+        </tr>
+        <tr>
+            <td align="center">find</td>
+            <td align="center">find</td>
+            <td align="center">search for files in a directory hierarchy</td>
+            <td align="center" COLSPAN="4"> -- </td>
+            <td>
+                <ul>
+                    <li>Find file with name <i>"file"</i></li>
+                        <ul>
+                            <li><code>find ./ -name file</code></li>
+                        </ul>
+                </ul>
+            </td>
         </tr>
     </table>
 
