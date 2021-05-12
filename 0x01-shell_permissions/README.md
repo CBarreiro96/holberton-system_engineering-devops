@@ -113,12 +113,8 @@ Read or watch:
             <td align="center">search for files in a directory hierarchy</td>
             <td align="center" COLSPAN="4"> -- </td>
             <td>
-                <ul>
-                    <li>Find file with name <i>"file"</i></li>
-                        <ul>
-                            <li><code>find ./ -name file</code></li>
-                        </ul>
-                </ul>
+                <b>1. Find file with name <i>"file"</i></b><br>
+                <code>find ./ -name file</code>
             </td>
         </tr>
     </table>
