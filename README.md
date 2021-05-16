@@ -327,7 +327,9 @@ These are the file that you can explore depend on what you want to learn.
                     <li>ifconfig</li>
                     <li>telnet</li>
                     <li>nc</li>
-                    <li>cut</li>
+                    <li>curl</li>
+                    <li>wget</li>
+                    <li>traceroute</li>
                 </ul>
             </td>
             <td>

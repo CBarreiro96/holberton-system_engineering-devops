@@ -48,6 +48,7 @@ Read or watch:
     <summary><b>Command</b></summary>
     <br>
     <table>
+        <!--Header-->
         <tr>
             <th align="center">Command</th>
             <th align="center">Description</th>
@@ -55,6 +56,7 @@ Read or watch:
             <th align="center" COLSPAN="4"><center>Others</center></th>
             <th align="center"><center>Example</center></th>
         </tr>
+        <!--chmod command-->
         <tr>
             <td align="center" ROWSPAN="5">chmod</td>
             <td align="center" ROWSPAN="5"><b>CH</b>ange <b>MOD</b>e</td>
@@ -89,24 +91,28 @@ Read or watch:
             <td align="center">a</td>
             <td align="center">All</td>
         </tr>
+        <!--chown command-->
         <tr>
             <td align="center">chown</td>
             <td align="center"> <b>CH</b>ange <b>OWN</b>er </td>
             <td align="center">changes user ownership of a file, directory, or link in Linux.</td>
-            <td align="center" COLSPAN="4"> -- </td>
+            <td align="center" COLSPAN="5"> -- </td>
         </tr>
+        <!--whoami command-->
         <tr>
             <td align="center">whoami</td>
             <td align="center"> Who am I</td>
             <td align="center"><b>print effective userid</b><br><i> When I know WHta is my user</i></td>
-            <td align="center" COLSPAN="4"> -- </td>
+            <td align="center" COLSPAN="5"> -- </td>
         </tr>
+        <!--passwd command-->
         <tr>
             <td align="center">passwd</td>
             <td align="center">change user <b>PASSW</b>or<b>D</b></td>
             <td align="center">Change password</td>
-            <td align="center" COLSPAN="4"> -- </td>
+            <td align="center" COLSPAN="5"> -- </td>
         </tr>
+        <!--Find command-->
         <tr>
             <td align="center">find</td>
             <td align="center">find</td>
@@ -116,6 +122,52 @@ Read or watch:
                 <b>1. Find file with name <i>"file"</i></b><br>
                 <code>find ./ -name file</code>
             </td>
+        </tr>
+        <!--grep command-->
+        <tr>
+            <td align="center" rowspan="4"> grep </td>
+            <td align="center" rowspan="4"><b>G</b>lobal<br> <b>R</b>egular<br> <b>E</b>xpression<br> <b>P</b>rint</td>
+            <td align="center" rowspan="4">print lines that match patterns</td>
+            <td align="center" colspan="2"><b> Notation </b></td>
+            <td align="center" colspan="2"><b> Meaning </b></td>
+            <td rowspan="4">
+                <b>1.</b><code>grep search_word file</code>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><code>-i</code></td>
+            <td align="center" colspan="2"><b>Ignore</b> case distinctions in patterns and input data(<i>Ex: Upper with lower</i>)</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><code>-c</code></td>
+            <td align="center" colspan="2">Suppress normal output; instead print a <b>count</b> of matching lines for each input file</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><code>-v</code></td>
+            <td align="center" colspan="2">to select <b>non-matching</b> lines.</td>
+        </tr>
+        <!--wc command-->
+        <tr>
+            <td align="center" rowspan="4"> wc </td>
+            <td align="center" rowspan="4"><b>W</b>ord<<br> <b>C</b>ount
+            <td align="center" rowspan="4">print newline, word, and byte counts for each file</td>
+            <td align="center" colspan="2"><b> Notation </b></td>
+            <td align="center" colspan="2"><b> Meaning </b></td>
+            <td rowspan="4">
+                <b>1.</b><code>wc file</code>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><code>-l</code></td>
+            <td align="center" colspan="2">print the newline counts</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><code>-w</code></td>
+            <td align="center" colspan="2">print the word counts</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><code>-c</code></td>
+            <td align="center" colspan="2">print the byte counts</td>
         </tr>
     </table>
 
